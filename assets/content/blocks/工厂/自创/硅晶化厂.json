@@ -1,0 +1,48 @@
+/*这样的是注释，不需要删掉*/
+/* ■
+   ■
+   ■
+   ■
+   ■
+   定
+   码
+   神
+   针
+   ■
+   ■
+   ■
+   ■
+   ■*/
+{
+	"name":"硅晶化厂"
+	"type":"GenericCrafter"/*类型，目前本人就会这一个*/
+	"description": "将硅融化和提炼，使其成为硅晶体
+	[red]耗电高，提纯效率低",
+
+	"size":2,/*最高16，不然会崩*/
+	"hasPower": true,/*是否需要电*/
+	"hasLiquids": false,/*是否需要液体*/
+	"hasItems": true,/*是否需要物品*/
+	
+	"craftTime": 78,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1.5,/*游戏里会乘60*/
+		"items": {
+			"items": [
+			"silicon/3"
+			]
+        },
+	},
+	"outputItem": { "item": "晶体", "amount": 1 }/*输出的物品*/
+	
+	"requirements": [
+		"铜铅合金/20",
+		"graphite/10",
+		"silicon/10"
+	],
+	"category": "crafting",
+	"research": "铜铅合金厂",/*前置研究*/
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+}

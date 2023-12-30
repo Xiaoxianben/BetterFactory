@@ -1,0 +1,33 @@
+{
+    "name": "大型混合厂",
+    "type": "GenericCrafter",
+    "health": 480,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "description": "提高生产技术的混合机",
+    "size": 3,
+    "craftTime": 79.2,
+    "consumes": {
+        "power": 3.3,
+        "items": {
+            "items": [
+                "coal/1",
+                "lead/2",
+                "sand/2"
+            ]
+        }
+    },
+    "outputItems": [
+        "pyratite/4"
+    ],
+    "requirements": [
+        "钛合金/60",
+        "graphite/5"
+    ],
+    "research": "多线混合厂",
+    "updateEffect": "none",
+    "category": "crafting",
+    "idleSound": "respawning",
+    "idleSoundVolume": 0.5
+}

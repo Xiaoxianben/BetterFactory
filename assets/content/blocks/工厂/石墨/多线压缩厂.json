@@ -1,0 +1,35 @@
+{
+	"name":"多线压缩厂" //名字
+	"type":"GenericCrafter"
+	"description": "可以多线程同时操作，使其每秒产量增大4倍
+	[red]但是建造消耗为4倍", //介绍
+    
+	"itemCapacity":200, //物品容量
+	"size": 3, //大小
+	"hasPower": true, //是否要电力
+	"hasLiquids": false, //是否要液体
+	"hasItems": true, //是否要物体
+	
+	"craftTime": 90, //生产时间
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,  //需要多少电力，此处为120
+		"items": [
+			{ "item": "coal", "amount": 8 }
+        ]
+	}
+    
+    "outputItem": { "item": "graphite", "amount": 4 }
+	//产出物品
+	
+	"requirements": [  //，建造所需材料
+    "铜铅合金/100",
+    "graphite/4"
+    ]
+	
+	"category": "crafting",  //，类别:制作
+	"research": "graphite-press",
+
+	"idleSound": "respawning",  //工作效果:生成物品
+	"idleSoundVolume": 0.5  //音量大小0.5
+}

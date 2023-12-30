@@ -1,0 +1,22 @@
+{
+    "type": "battery",
+    "name": "超大型铜铅合金电池",
+    "description": "强大的电池，可存储非常多电量 ",
+// 	"details":"最下面的吐槽",
+    "size": 3,
+
+    "haspower": true,
+    "powerCapacity": 90000,
+
+    "requirements": [
+    "铜铅合金/45",
+    "graphite/45"
+    ],
+
+    "consumes": {
+        "powerBuffered": 90000
+    },//电池储存的大小
+
+    "research": "大型铜铅合金电池",
+    "category": "power"
+}

@@ -1,0 +1,55 @@
+/*这样的是注释，不需要删掉*/
+/* ■
+   ■
+   ■
+   ■
+   ■
+   定
+   码
+   神
+   针
+   ■
+   ■
+   ■
+   ■
+   ■*/
+{
+	"name":"铜铅合金厂"
+	"type":"GenericCrafter"/*类型，目前本人就会这一个*/
+	"description": "将铜铅融合物进行二次融合的工厂，需要废料来添加一部分金属，沙子来去除杂志，会产生废料，最后把铜铅融合物压缩提炼铜铅合金
+	[red] \"一堆废话\"",
+
+    "itemCapacity": 20,
+	"size": 3,/*最高16，不然会崩*/
+
+	"hasPower": true,/*是否需要电*/
+	"hasLiquids": false,/*是否需要液体*/
+	"hasItems": true,/*是否需要物品*/
+
+	"craftTime":60,
+
+	"consumes": {
+		"power":1,/*游戏里会乘60*/
+		"items": {
+			"items": [
+				"铜铅融合物/5",
+				"coal/4",
+				"sand/2" /*需要的材料*/
+			]
+        },
+	},
+
+	"outputItems": [
+		{ "item": "铜铅合金", "amount": 2 }
+	]/*输出的物品*/
+	
+	"requirements": [
+		"铜铅融合物/80",
+		"silicon/50",
+		"graphite/30",
+	],
+	"category": "crafting",
+    "research": "铜铅融合厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+}

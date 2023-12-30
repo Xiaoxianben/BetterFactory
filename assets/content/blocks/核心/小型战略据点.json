@@ -1,0 +1,20 @@
+{
+	"name": "小型战略据点",
+	"description": "用来减少远程运输，只能放置200个
+	他其实就是个核心",
+	"details":"其实是基本无限制",
+	"itemCapacity": 1000,
+	"hasItems": true,
+	"health": 1000,
+	"unitType":"alpha",
+	"size": 2,
+	"breakable":true,
+	"buildCostMultiplier":1.5
+	"unitCapModifier":0
+	"requirements": [
+		"铜铅合金/1000",
+		"晶体/500"
+	],
+	"category": "effect"
+	"research": "超小型紧急据点"
+}

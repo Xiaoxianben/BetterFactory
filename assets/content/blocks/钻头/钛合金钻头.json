@@ -1,0 +1,37 @@
+{
+	"type":"Drill",//"种类": "？",(Drill=钻头)
+	"name":"钛合金钻头",//"名称": "？",
+	"description":"此钻头为2级最强钻头,耗电离谱，但是产出的资源也很多",//"介绍": "？",
+	"size": 3,//"大小": "？",
+	"health": 1200,//"血量": "？",
+	"tier": 4,//"挖掘等级": "？",
+
+	"drillTime": 108,// 5 "挖掘速度": "？",(越小越快(120=游戏中挖掘速度1)
+
+	"rotateSpeed": 1,//"图像后缀-rotator旋转速度": "？",
+	"drawMineltem": true,//"绘制矿井": ？,(true=是)是否在中心绘画所采矿物的颜色
+	
+	"idleSound":"DrillBit",//"声音类型": "？",(DrillBit=钻头)
+	"idleSoundVolume": 0.1//"声音倍数": ？
+	"liquidBoostIntensity": 5,//"液体倍率": ？,
+	
+	"consumes":{
+		"power": 2,//"耗电": ？,(1=游戏内耗电60)
+	    "liquid": {
+			"liquid":"water",
+			"amount":0.1,
+			"booster": true,
+			//加速
+			"optional": true
+			//可选
+		}
+	},//"消耗": {}
+	"requirements":[
+		"钛合金/100",
+		"silicon/80",
+		"graphite/50"
+    ],//"建造所需材料": []
+	"category": "production",//"类别": "？",(production=生产)"research": {
+    "research":"laser-drill",
+	//"研究前置": "？",
+}

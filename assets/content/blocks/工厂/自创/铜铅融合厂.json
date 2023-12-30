@@ -1,0 +1,52 @@
+/*这样的是注释，不需要删掉*/
+/* ■
+   ■
+   ■
+   ■
+   ■
+   定
+   码
+   神
+   针
+   ■
+   ■
+   ■
+   ■
+   ■*/
+{
+	"name":"铜铅融合厂"
+	"type":"GenericCrafter"/*类型，目前本人就会这一个*/
+	"description": "强行融合铜铅的工厂,是一种非常垃圾的融合，或许可以想办法将其二次融合
+	[red]这是模组的一个工厂，也是模组的开端",
+
+	"size":2,/*最高16，不然会崩*/
+
+	"hasPower": true,/*是否需要电*/
+	"hasLiquids": false,/*是否需要液体*/
+	"hasItems": true,/*是否需要物品*/
+
+	"craftTime":60,
+
+	"consumes": {
+		"power":0.2,/*游戏里会乘60*/
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 3 },
+				{ "item": "lead", "amount": 3 },/*需要的材料*/
+			]
+        },
+	},
+
+	"outputItem": { "item": "铜铅融合物", "amount": 1 }/*输出的物品*/
+	
+	"requirements": [
+	"copper/15",
+	"lead/15",
+	"graphite/2"
+	],
+	"category": "crafting",
+    "research": "mechanical-drill",
+
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+}

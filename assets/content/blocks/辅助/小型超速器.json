@@ -1,0 +1,35 @@
+{
+    "name": "小型超速器",//名字
+    "type": "OverdriveProjector",//类型
+    "description":"小型的超速器",//介绍
+    "size":1,//大小
+    "health": 90,//血量
+
+    "hasItems":true,//是否要物品
+    "hasPower":true,//是否要电
+
+    "range": 32,//范围，结果除以8等于半径
+    "speedBoost":1.25,//强化效率，结果减1，剩下的数除以100，这里是20%
+    "phaseRangeBoost":32,//在原本的范围上添加
+    "speedBoostPhase":0.25,//在原本的强化效率以上相加
+    
+    "useTime": 240,
+    "consumes":{
+        "power": 2,
+        "items":{
+            "items":[
+                "silicon/1"
+            ],
+            "booster":true,"optional": true,
+        },
+    },
+    
+    "requirements":[
+    "铜铅融合物/30",
+    "graphite/20",
+    "silicon/10"
+    ],
+    
+    "research":"mender",
+    "category":"effect",
+}

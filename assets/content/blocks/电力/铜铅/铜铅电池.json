@@ -1,0 +1,22 @@
+{
+    "type": "battery",
+    "name": "电池"
+    "description": "强大的电池，可存储非常多电量 "
+	"details":"最下面的吐槽",
+    "size": 1,
+
+    "haspower": true,
+    "powerCapacity": 6000
+
+    "requirements": [
+    "铜铅融合物/5",
+    "graphite/5"
+    ],
+
+    "consumes": {
+        "powerBuffered": 6000
+    },//电池储存的大小
+
+    "research": "battery",
+    "category": "power"
+}

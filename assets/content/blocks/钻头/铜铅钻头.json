@@ -1,0 +1,35 @@
+{
+	"type":"Drill",//"种类": "？",(Drill=钻头)
+	"name":"铜铅钻头",//"名称": "？",
+	"description":"它是机械钻头的加强版，不需要电，挖掘速度是三倍",//"介绍": "？",
+	"size": 2,//"大小": "？",
+	"health": 300,//"血量": "？",
+
+	"tier": 2,//"挖掘等级": "？",
+	"drillTime": 200,// 1.2 "挖掘速度": "？",(越小越快(120=游戏中挖掘速度1)
+
+	"rotateSpeed": 1,//"图像后缀-rotator旋转速度": "？",
+	"drawMineltem": true,//"绘制矿井": ？,(true=是)是否在中心绘画所采矿物的颜色
+	
+	"idleSound":"DrillBit",//"声音类型": "？",(DrillBit=钻头)
+	"idleSoundVolume": 0.1//"声音倍数": ？
+	"liquidBoostIntensity": 2.5,//"液体倍率": ？,
+	
+	"consumes":{
+		"liquid": {
+			"liquid":"water",
+			"amount": 0.06,
+			"booster": true,
+			//加速
+			"optional": true,
+			//可选
+		}
+	},
+//"消耗": {}
+	"requirements":[
+		"铜铅融合物/12"
+    ],//"建造所需材料": []
+	"category": "production",//"类别": "？",(production=生产)"research": {
+    "research":"铜铅融合厂",
+	//"研究前置": "？",
+}

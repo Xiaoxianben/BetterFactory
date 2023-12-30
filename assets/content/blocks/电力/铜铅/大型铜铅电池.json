@@ -1,0 +1,22 @@
+{
+    "type": "battery",
+    "name": "大型铜铅电池"
+    "description": "强大的电池，可存储非常多电量 "
+// 	"details":"最下面的吐槽",
+    "size": 2,
+
+    "haspower": true,
+    "powerCapacity": 24000
+
+    "requirements": [
+    "铜铅融合物/20",
+    "graphite/20"
+    ],
+
+    "consumes": {
+        "powerBuffered": 24000
+    },//电池储存的大小
+
+    "research": "铜铅电池",
+    "category": "power",
+}
