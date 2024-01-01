@@ -1,0 +1,29 @@
+{
+    "type": "Drill",
+    "name": "轻速钻头",
+    "description": "它是铜铅钻头的轻质快速版，是本模组最快的1级钻头",
+    "size": 2,
+    "health": 300,
+    "tier": 1,
+    "drillTime": 12,
+    "rotateSpeed": 1,
+    "drawMineltem": true,
+    "idleSound": "DrillBit",
+    "idleSoundVolume": 0.1,
+    "liquidBoostIntensity": 3,
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.055,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "requirements": [
+        "铜铅合金/18",
+        "silicon/18",
+        "graphite/20"
+    ],
+    "category": "production",
+    "research": "铜铅合金钻头"
+}

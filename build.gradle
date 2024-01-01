@@ -84,6 +84,12 @@ jar {
     }
 }
 
+task moveJar(type: Copy) {
+    from 'build/libs/'
+    include "*.jar"
+    into "C:\\Users\\yuan\\AppData\\Roaming\\Mindustry\\mods"
+}
+
 task deploy(type: Jar) {
     dependsOn jarAndroid
     dependsOn jar

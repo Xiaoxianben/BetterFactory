@@ -1,0 +1,19 @@
+{
+    "type": "Wall",
+    "name": "铜铅合金墙",
+    "description": "利用铜铅合金制造的强，血量是铜铅墙的3倍",
+    "size": 1,
+    "health": 1950,
+    "alwaysReplace": "ture",
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "solid": "ture",
+    "requirements": [
+        {
+            "item": "铜铅合金",
+            "amount": 6
+        }
+    ],
+    "research": "铜铅墙",
+    "category": "defense"
+}

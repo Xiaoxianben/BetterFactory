@@ -1,0 +1,16 @@
+{
+    "name": "超小型紧急据点",
+    "description": "减少运输布局，懒人必备，但是只能建造15个\n[red]“谁用谁是狗(dog)”",
+    "itemCapacity": 10,
+    "hasItems": true,
+    "health": 500,
+    "unitType": "alpha",
+    "size": 1,
+    "breakable": true,
+    "unitCapModifier": 0,
+    "requirements": [
+        "铜铅融合物/500"
+    ],
+    "category": "effect",
+    "research": "router"
+}

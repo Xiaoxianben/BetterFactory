@@ -1,0 +1,33 @@
+{
+    "name": "铜铅融化厂",
+    "type": "GenericCrafter",
+    "description": "将铜铅融合物融化成铜铅溶液",
+    "itemCapacity": 20,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "consumes": {
+        "power": 0.6,
+        "items": [
+            {
+                "item": "铜铅融合物",
+                "amount": 1
+            }
+        ]
+    },
+    "outputLiquids": [
+        {
+            "liquid": "铜铅溶液",
+            "amount": 0.1
+        }
+    ],
+    "requirements": [
+        "铜铅融合物/60",
+        "silicon/20",
+        "graphite/30"
+    ],
+    "category": "crafting",
+    "research": "铜铅融合厂"
+}

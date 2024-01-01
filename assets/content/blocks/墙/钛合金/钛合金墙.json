@@ -1,0 +1,19 @@
+{
+    "type": "Wall",
+    "name": "钛合金墙",
+    "description": "通过钛合金制作成的小型墙，拥有极高的血量",
+    "health": 3585,
+    "size": 1,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 0,
+    "breakSound": "boom",
+    "requirements": [
+        {
+            "item": "钛合金",
+            "amount": 6
+        }
+    ],
+    "research": "titanium-wall",
+    "category": "defense"
+}

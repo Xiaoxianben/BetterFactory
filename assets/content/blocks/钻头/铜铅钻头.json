@@ -1,0 +1,25 @@
+{
+    "type": "Drill",
+    "name": "铜铅钻头",
+    "description": "它是机械钻头的加强版，不需要电，挖掘速度是三倍",
+    "size": 2,
+    "health": 320,
+    "tier": 2,
+    "drillTime": 200,
+    "rotateSpeed": 1,
+    "drawMineltem": true,
+    "liquidBoostIntensity": 1.12,
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.055,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "requirements": [
+        "铜铅融合物/12"
+    ],
+    "category": "production",
+    "research": "铜铅融合厂"
+}

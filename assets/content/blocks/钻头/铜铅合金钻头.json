@@ -1,0 +1,26 @@
+{
+    "type": "Drill",
+    "name": "铜铅合金钻头",
+    "description": "它是气动钻头的加强版，不需要电，挖掘速度是三倍",
+    "size": 2,
+    "health": 640,
+    "tier": 3,
+    "drillTime": 133.33,
+    "rotateSpeed": 1,
+    "drawMineltem": true,
+    "liquidBoostIntensity": 1.6,
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.06,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "requirements": [
+        "铜铅合金/18",
+        "graphite/20"
+    ],
+    "category": "production",
+    "research": "pneumatic-drill"
+}

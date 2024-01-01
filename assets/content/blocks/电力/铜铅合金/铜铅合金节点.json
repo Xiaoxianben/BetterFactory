@@ -1,0 +1,17 @@
+{
+    "type":"PowerNode",
+    "name":"铜铅合金节点",
+    "description": "简介",
+//	"details":"最下面的吐槽",
+    "size":1,
+
+    "maxNodes": 20,//最大连接数量
+    "laserRange": 10,//范围
+
+    "requirements": [
+    "铜铅合金/1",
+    ],
+
+    "category":"power",
+    "research":"铜铅节点",
+}

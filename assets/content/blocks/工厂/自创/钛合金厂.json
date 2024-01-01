@@ -1,0 +1,33 @@
+{
+    "name": "钛合金厂",
+    "type": "GenericCrafter",
+    "description": "将钛和铜铅合金物进行融合并压缩制造成钛合金",
+    "itemCapacity": 10,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 65,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 3.5,
+        "items": {
+            "items": [
+                "铜铅合金/1",
+                "titanium/1"
+            ]
+        }
+    },
+    "outputItem": {
+        "item": "钛合金",
+        "amount": 1
+    },
+    "requirements": [
+        "铜铅合金/60",
+        "titanium/50",
+        "graphite/40",
+        "silicon/30"
+    ],
+    "category": "crafting",
+    "research": "硅晶化厂"
+}

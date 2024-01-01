@@ -1,0 +1,32 @@
+{
+    "name": "铜铅融合厂",
+    "type": "GenericCrafter",
+    "description": "简单融合铜和铅,是一种非常垃圾的融合，或许可以想办法将其制成合金\n[white]这是本模组的一个工厂，也是本模组的开端",
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 60,
+    "consumes": {
+        "items": [
+            {
+                "item": "copper",
+                "amount": 3
+            },
+            {
+                "item": "lead",
+                "amount": 3
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "铜铅融合物",
+        "amount": 1
+    },
+    "requirements": [
+        "copper/50",
+        "lead/30"
+    ],
+    "category": "crafting",
+    "research": "mechanical-drill"
+}
