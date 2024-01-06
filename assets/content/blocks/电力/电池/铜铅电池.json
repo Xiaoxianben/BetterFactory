@@ -1,0 +1,18 @@
+{
+    "type": "battery",
+    "name": "铜铅电池",
+    "description": "强大的电池，可存储非常多电量 ",
+    "size": 1,
+    "haspower": true,
+    "baseExplosiveness": 1.2,
+    "powerCapacity": 8000,
+    "requirements": [
+        "铜铅融合物/15",
+        "graphite/5"
+    ],
+    "consumes": {
+        "powerBuffered": 8000
+    },
+    "research": "battery",
+    "category": "power"
+}

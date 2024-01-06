@@ -1,0 +1,14 @@
+{
+    "type": "PowerNode",
+    "name": "大型铜铅合金节点",
+    "description": "简介",
+    "size": 2,
+    "maxNodes": 30,
+    "laserRange": 25,
+    "requirements": [
+        "铜铅合金/4",
+        "graphite/8"
+    ],
+    "category": "power",
+    "research": "铜铅合金节点"
+}

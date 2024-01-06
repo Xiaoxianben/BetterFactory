@@ -1,15 +1,8 @@
 /*模板作者：我的世界你不懂*/
 {
   "name": "铜铅溶液", /*名称*/
-  "type": "liquid", /*种类*/
   "description": "融化后的铜铅融合物，铜和铅充分接触",
-  "color": "97D694FF", /*颜色*/
 
-  "flammability": 0, /*燃烧性*/
-  "explosiveness": 0, /*爆炸性*/
-  "viscosity": 0.7, /*粘度*/
-  "charge": 0, /*蓄电性*/
-  "heatCapacity": 0.5, // 热容量
   "temperature": 1, // 温度
 
   "effect": "melting",

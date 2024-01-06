@@ -1,44 +1,40 @@
 {
-    "type":"ConsumeGenerator",//类型
-    "name":"水压发电机",//名字
-    "description":"通过水的压力发电，发电量还可以",//简介
-    "details":"虽然用水就能发电，但是应该保持了平衡吧"
-    "size":2,//大小
-    "health":120,//生命
-
-    "hasPower":true,//储存电量
-    "hasLiquids":true,//储存液体
-    "hasItems":false,//储存物品
-
-    "liquidCapacity":10,//液体容量
-    "powerCapacity": 180,//电力容量
-    
-    "powerProduction": 1.5,//电量生产1=60电
-    "itemDuration":120,//一个物品用多久
-    
+    "type": "ConsumeGenerator",
+    "name": "水压发电机",
+    "description": "通过水的压力发电，发电量还可以",
+    "details": "虽然用水就能发电，但是应该保持了平衡吧",
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": false,
+    "liquidCapacity": 10,
+    "powerCapacity": 180,
+    "powerProduction": 1.5,
+    "itemDuration": 60,
     "drawer": {
-		"type":"DrawMulti",
-		"drawers":[
-		{"type":"DrawDefault"},
-		{"type":"DrawWarmupRegion"}
-		]
-	},
-    "effectChance":0.06,
-    "generateEffect": "generatespark",
-
-    "consumes":{
-        "liquid": {
-			"liquid":"water",//液体种类
-			"amount":0.05,//，最后数量乘以60
-		}
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawWarmupRegion"
+            }
+        ]
     },
-
-    "requirements":[
+    "effectChance": 0.06,
+    "generateEffect": "generatespark",
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.05
+        }
+    },
+    "requirements": [
         "铜铅合金/20",
         "graphite/20",
         "silicon/15"
-    ],//建造需求
-    
-    "category":"power",//类别
-    "research": "燃烧发电机",//研究前置
+    ],
+    "category": "power",
+    "research": "燃烧发电机"
 }
