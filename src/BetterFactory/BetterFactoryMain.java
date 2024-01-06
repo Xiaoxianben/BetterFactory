@@ -49,7 +49,7 @@ public class BetterFactoryMain extends Mod {
                 //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
                 dialog.cont.image(Core.atlas.find("better-factory-icon")).top().pad(32).row();
                 Table table = new Table();
-                table.add("本模组还在测试，贴图大多抄的其他模组（已经改的面目全非）；还有一部分完全没有改，是临时的贴图，以后一定会改。\n有问题请到B站搜“小仙本猫”");
+                table.add("本模组还在测试，贴图有些抄的其他模组（已经改的面目全非）；还有一部分没有改，是临时的贴图，以后一定会改。\n没有贴图的，以后会有的。\n有问题请到B站搜“小仙本猫”。");
                 dialog.cont.add(table).size(500, 5).row();
 
                 dialog.cont.button("[blue]赞助", () -> {

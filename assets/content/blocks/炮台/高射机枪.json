@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "name": "高射机枪",
-    "description": "让后勤骂人的机器  ",
+    "description": "让后勤骂人的机器。\n[red]这个是抄的别的模组，忘了是哪个模组，只用来学习，不加入战役",
     "details": "《论敌人是怎么惨叫的》",
     "health": 1000,
     "size": 3,
@@ -146,6 +146,6 @@
         "铜铅融合物/100",
         "graphite/50"
     ],
-    "category": "turret",
-    "research": "scatter"
+    "category": "turret"
+    //    "research": "scatter"
 }
