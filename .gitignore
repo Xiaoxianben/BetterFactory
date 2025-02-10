@@ -154,4 +154,6 @@ gradle-app.setting
 .DS_Store
 Thumbs.db
 android/libs/
-/lib/
+
+/lib/Mindustry-146.zip
+/lib/贴图/
